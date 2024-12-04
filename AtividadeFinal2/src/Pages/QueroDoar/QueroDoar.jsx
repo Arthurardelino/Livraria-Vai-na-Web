@@ -1,6 +1,7 @@
+import iconeLivro from '../../assets/iconeLivro.png'
 import s from './QueroDoar.module.scss'
 
-export default function (){
+export default function QueroDoar(){
     return(
         <section className={s.Querodoarsection}>
             <p>por favor, preencha o formulario com suas identidades</p>

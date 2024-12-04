@@ -1,11 +1,14 @@
 import s from './Inicio.module.scss'
+import imagem1 from '../../assets/imagem1.png'
+import imagem2 from '../../assets/imagem2.png'
+import imagem3 from '../../assets/imagem3.png'
+import imagem4 from '../../assets/imagem4.png'
 
 export default function Inicio(){
     return(
         <main>
             <section className={s.primeirasessaoinicio}>
                 <h2>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
-                <img src={imagem} alt="" />
             </section>
             <section className={s.porquedoarsection}>
                 <h2>Por que devo doar</h2>
